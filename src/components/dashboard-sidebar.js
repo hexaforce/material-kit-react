@@ -146,12 +146,8 @@ export const DashboardSidebar = (props) => {
           ))}
         </Box>
         <Divider sx={{ borderColor: '#2D3748' }} />
-        <Box
-          sx={{
-            px: 2,
-            py: 3,
-          }}
-        >
+        {/*
+        <Box sx={{ px: 2, py: 3, }}>
           <Typography color='neutral.100' variant='subtitle2'>
             Need more features?
           </Typography>
@@ -177,6 +173,7 @@ export const DashboardSidebar = (props) => {
             </Button>
           </NextLink>
         </Box>
+        */}
       </Box>
     </>
   )
